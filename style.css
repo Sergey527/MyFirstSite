@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "chocolate";
+    src: url("fonts/TTChocolates-Light.woff") format("woff"), url("fonts/TTChocolates-Light.woff2") format("woff2");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "chocolate";
+    src: url("fonts/TTChocolates-Regular.woff") format("woff"), url("fonts//TTChocolates-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "chocolate";
+    src: url("fonts/TTChocolates-Black.woff") format("woff"), url("fonts/TTChocolates-Black.woff2") format("woff2");
+    font-weight: 600;
+}
+
+body {
+    font-family: 'chocolate', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    background: url(photos/background.jpg);
+    background-size: 150px 150px;
+
+}
+
+.text {
+    color: #fff;
+}
+
+.text-title {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+.text p{
+    font-size: 30px;
+    text-align: justify;
+    margin: 50px;
+    font-weight: 200;
+}
+
+.text1 {
+    padding-top: 35px;
+}
+
+.center {
+
+    background-color: grey;
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.image {
+    height: 400px;
+    margin-right: 50px;
+    
+}
+
+.image1 {
+    height: 200px;
+    margin: 50px 0 50px 50px;
+}
+
+.image2 {
+    height: 520px;
+    margin: 50px;
+}
+
+.image3 {
+    height: 400px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.content {
+    display: flex;
+    border-bottom: 5px dashed black;
+    padding-bottom: 40px;
+}
+
+.content1 {
+    display: flex;
+}
+
+.content2 {
+    display: flex;
+    border-bottom: 5px dashed black;
+    padding-bottom: 15px;
+}
+
+.links {
+    margin: 40px 200px 0 200px;
+    background-color: grey;
+    padding: 10px 0;
+}
+
+.link {
+    margin: 10px 50px 0 50px;
+    border: 2px solid black;
+    padding: 5px 20px;
+    background-color: black;
+    text-decoration: none;
+    color: #fff;
+}
